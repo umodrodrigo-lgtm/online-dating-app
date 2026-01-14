@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: amozone-linux
+    runs-on: amazon-linux
 
     steps:
       - name: Checkout
