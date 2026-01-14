@@ -13,7 +13,7 @@ export function LandingPage() {
         <nav className="relative px-6 py-4 flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex items-center gap-2">
             <Heart className="w-8 h-8 text-primary fill-primary" />
-            <span className="text-2xl font-bold">MatchWave</span>
+            <span className="text-2xl font-bold">Limalsha</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/login">
