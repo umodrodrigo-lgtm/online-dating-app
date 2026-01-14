@@ -37,7 +37,7 @@ jobs:
           REMOTE_USER: ${{ secrets.EC2_USER }}
           TARGET: /usr/share/nginx/html/
           SOURCE: "dist/"
-          ARGS: "-rlgoDzvc --delete"
+          ARGS: "-rlgoDzvc"
 
       # Optional: reload nginx (only if deploy user can sudo nginx reload without password)
       # - name: Reload Nginx
