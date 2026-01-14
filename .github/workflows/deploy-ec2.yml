@@ -23,7 +23,7 @@ jobs:
         # (cited below)
 
       - name: Install dependencies
-        run: npm run build
+        run: npm ci
       - name: Build
         run: npm run build
 
