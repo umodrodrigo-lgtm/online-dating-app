@@ -28,7 +28,7 @@ export function LoginPage() {
         </Link>
 
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2">Welcome Back</h1>
+          <h1 className="text-3xl font-bold mb-2">Welcome</h1>
           <p className="text-muted-foreground">Log in to continue finding your perfect match</p>
         </div>
 
