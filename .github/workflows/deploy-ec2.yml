@@ -23,9 +23,9 @@ jobs:
         # (cited below)
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build
-        run: npm run dev
+        run: npm ci
 
       # CRA output folder = build
       # Vite output folder = dist  (change "SOURCE" below if you're using Vite)
